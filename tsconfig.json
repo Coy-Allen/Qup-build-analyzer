@@ -1,0 +1,11 @@
+{
+	"files": [
+		"src/main.ts"
+	],
+	"compilerOptions": {
+		"lib": ["ES2024", "DOM"],
+		"target": "ES2024",
+		"module": "ES2022",
+		"moduleResolution": "node"
+	}
+}
