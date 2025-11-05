@@ -3,9 +3,16 @@
 		"src/main.ts"
 	],
 	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"../node_modules/honeycomb-grid/dist/honeycomb-grid.mjs": ["node_modules/honeycomb-grid"],
+		},
 		"lib": ["ES2024", "DOM"],
 		"target": "ES2024",
 		"module": "ES2022",
-		"moduleResolution": "node"
+		"moduleResolution": "node",
+		"outDir": "src"
+	},
+	"tsc-alias": {
 	}
 }
